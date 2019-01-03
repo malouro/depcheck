@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "test-dep": "1.0.0",
+    "unused-dep": "1.0.0"
+  },
+  "devDependencies": {
+    "test-dev-dep": "1.0.0",
+    "unused-dev-dep": "1.0.0"
+  },
+  "jest": {
+    "transform": {
+      "test-regex": "test-dep",
+      "test-regex-dev": "test-dev-dep"
+    }
+  }
+}
